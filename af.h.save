@@ -1,0 +1,6 @@
+#ifndef AF_HEADER
+#define AF_HEADER
+
+void ArraysSum (int ArrayData_first[][size_Y], int ArrayData_second[][size_Y]);
+
+#endif
