@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+bool Menu (unsigned int ChoiseNum);
+
+//----------------------------------------------------------
+
+void main ()
+{
+    Menu();
+}
+
+bool Menu (unsigned int ChoiseNum)
+{
+    printf ("###########################\n"
+            "######  ###################\n"
+            "#####    ##################\n"
+            "##### ## ############## ###\n"
+            "####      #######   ##   ##\n"
+            "###  ####  ###### ##### ###\n"
+            "##  ######  ## ## ##### ###\n"
+            "###########################\n\n");
+
+    printf ("ARRAY LAB \n"
+            "Dolgopa City, 2024 \n");
+    printf ("All rights reserved.\n\n\n");
+
+    printf ("Choose mode: \n"
+            "1 for \n"
+            "2 for Test Mode\n");
+}
